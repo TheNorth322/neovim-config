@@ -6,19 +6,25 @@ This configuration uses such LSP's as:
 - `neocmake` - CMake
 
 ## Mappings
-1) Telescope:
+1) **Telescope**:
 - `fg` - Find global. Uses `Telescope live_grep`
 - `ff` - Find files. Uses `Telescope find_files`
 - `ft` - Find treesitter. Uses `Telescope treesitter` 
 - `fz` - Find current buffer. Uses `Telescope current_buffer_fuzzy_find` 
-2) Gitsigns
+2) **Gitsigns**:
 - `gt` - Toggle git current line. Uses `Gitsigns toggle_current_line_blame` 
-3) Whitespace manipulation
-- `sw` - Strip whitespaces in selected visual area. Uses `StripWhitespace`
-4) Windows navigation:
+3) **Whitespace manipulation**
+- `sw` - Strip whitespaces in selected **visual** area. Uses `StripWhitespace`
+4) **Windows navigation**:
 - `A-Left` - Move focus left
 - `A-Down` - Move focus down
 - `A-Up` - Move focus up 
 - `A-Right` - Move focus right
 
-
+## Options
+- `relativenumber` - On
+- `colorcolumn` - 120
+- `expandtab` - true
+- `tabstop` - 4
+- `shiftwidth` - 4
+- `softtabstop` - 4

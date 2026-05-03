@@ -7,13 +7,11 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 -- Telescope
--- Unbind defaults
 unmap("n", "<leader>fw")
 unmap("n", "<leader>fh")
 unmap("n", "<leader>fo")
 unmap("n", "<leader>gt")
 
--- Bind custom
 map("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", { desc = "Live grep" })
 map("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Find files" })
 map("n", "<leader>ft", "<cmd>Telescope treesitter<CR>", { desc = "Treesitter symbols" })
